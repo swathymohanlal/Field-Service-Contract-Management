@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>System status | Field Service &amp; Contract Management</title>
+  <link rel="stylesheet" href="/platform.css">
+  <script src="/platform.js" defer></script>
+</head>
+<body>
+  <main>
+    <p class="product">Field Service &amp; Contract Management</p>
+    <h1>System status</h1>
+    <section class="panel" aria-label="Foundation health">
+      <div class="result" role="status" aria-atomic="true">
+        <h2 id="status" data-state="pending">Checking system</h2>
+        <p id="detail">Connecting to the platform and checking its liveness.</p>
+      </div>
+      <dl>
+        <div><dt>Phase</dt><dd id="phase">—</dd></div>
+        <div><dt>Version</dt><dd id="version">—</dd></div>
+      </dl>
+      <button id="refresh" type="button">Refresh status</button>
+      <noscript>Enable JavaScript to check live status.</noscript>
+    </section>
+  </main>
+</body>
+</html>
