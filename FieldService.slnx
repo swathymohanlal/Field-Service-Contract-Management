@@ -1,0 +1,5 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/FieldService.Web/FieldService.Web.csproj" />
+  </Folder>
+</Solution>
